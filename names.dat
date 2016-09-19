@@ -1,0 +1,449 @@
+# Mabon v0.1.0
+# (c) Kamil Dubik 2013
+#
+# This file is part of Mabon.
+#
+# Mabon is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Mabon is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Mabon.  If not, see <http://www.gnu.org/licenses/>.
+
+# date - datum ku ktoremu sa meno viaze
+# name oznacuje "pridaj meno": meno kod_jazyka -- utf-8 meno -- meno bez diakritiky
+# max. pocet mien k datumu je predbezne 12
+# Ak je zadane iba jedno meno, tak potom na diakritike nezalezi a meno sa skopiruje do bezdiakrit.
+
+# Január SVK
+01 01 svk -sviatok-
+02 01 svk Alexandra
+02 01 svk Karina
+03 01 svk Daniela
+04 01 svk Drahoslav
+05 01 svk Andrea
+06 01 svk Antónia Antonia
+07 01 svk Bohuslava
+08 01 svk Severín Severin
+09 01 svk Alexej
+10 01 svk Dáša Dasa
+11 01 svk Malvína Malvina
+12 01 svk Ernest
+13 01 svk Rastislav
+14 01 svk Radovan
+15 01 svk Dobroslav
+16 01 svk Kristína Kristina
+17 01 svk Nataša Natasa
+18 01 svk Bohdana
+19 01 svk Drahomíra Drahomira
+19 01 svk Mário Mario
+19 01 svk Sára Sara
+20 01 svk Dalibor Dalibor
+21 01 svk Vincent
+22 01 svk Zora
+23 01 svk Miloš Milos
+24 01 svk Timotej
+25 01 svk Gejza
+26 01 svk Tamara
+27 01 svk Bohuš
+28 01 svk Alfonz
+29 01 svk Gašpar
+30 01 svk Ema
+31 01 svk Emil
+
+# Február SVK
+01 02 svk Tatiana
+02 02 svk Erik
+02 02 svk Erika
+03 02 svk Blažej Blazej
+04 02 svk Veronika
+05 02 svk Agáta Agata
+06 02 svk Dorota
+07 02 svk Vanda
+08 02 svk Zoja
+09 02 svk Zdenko
+10 02 svk Gabriela
+11 02 svk Dezider
+12 02 svk Perla
+13 02 svk Arpád Arpad
+14 02 svk Valentín Valentin
+15 02 svk Pravoslav
+16 02 svk Ida
+16 02 svk Liana
+17 02 svk Miroslava
+18 02 svk Jaromír Jaromir
+19 02 svk Vlasta
+20 02 svk Lívia Livia
+21 02 svk Eleónora Eleonora
+22 02 svk Etela
+23 02 svk Roman 
+23 02 svk Romana
+24 02 svk Matej
+25 02 svk Frederik
+26 02 svk Viktor
+27 02 svk Alexander
+28 02 svk Zlatica
+29 02 svk -nic-
+
+# Marec SVK
+01 03 svk Albín Albin
+02 03 svk Anežka Anezka
+03 03 svk Bohumil
+03 03 svk Bohumila
+04 03 svk Kazimír Kazimir
+05 03 svk Fridrich
+06 03 svk Radoslav
+07 03 svk Tomáš Tomas
+08 03 svk Alan
+09 03 svk Františka Frantiska
+10 03 svk Branislav
+10 03 svk Bruno
+11 03 svk Angela
+12 03 svk Gregor
+13 03 svk Vlastimil
+14 03 svk Matilda
+15 03 svk Svetlana
+16 03 svk Boleslav
+17 03 svk Ľubica Lubica
+18 03 svk Eduard
+19 03 svk Jozef
+20 03 svk Víťazoslav Vitazoslav
+21 03 svk Blahoslav
+22 03 svk Beňadik Benadik
+23 03 svk Adrián Adrian
+24 03 svk Gabriel
+25 03 svk Marián Marian
+26 03 svk Emanuel
+27 03 svk Alena
+28 03 svk Soňa Sona
+29 03 svk Miroslav
+30 03 svk Vieroslava
+31 03 svk Benjamín Benajmin
+
+# April SVK
+01 04 svk Hugo
+02 04 svk Zita
+03 04 svk Richard
+04 04 svk Izidor
+05 04 svk Miroslava
+06 04 svk Irena
+07 04 svk Zoltán Zoltan
+08 04 svk Albert
+08 04 lul Gogo
+09 04 svk Milena
+10 04 svk Igor
+11 04 svk Július Julius
+12 04 svk Estera
+13 04 svk Aleš Ales
+14 04 svk Justína Justina
+15 04 svk Fedor
+16 04 svk Dana
+16 04 svk Danica
+17 04 svk Rudolf
+18 04 svk Valér Valer
+19 04 svk Jela
+20 04 svk Marcel
+21 04 svk Ervín Ervin
+22 04 svk Slavomír Slavomir
+23 04 svk Vojtech
+24 04 svk Juraj
+25 04 svk Marek
+26 04 svk Jaroslava
+27 04 svk Jaroslav
+28 04 svk Jarmila
+29 04 svk Lea
+30 04 svk Anastázia 
+
+# Maj SVK
+01 05 svk -sviatok-
+02 05 svk Žigmund Zigmund
+03 05 svk Galina
+04 05 svk Florián Florian
+05 05 svk Lesana
+06 05 svk Hermína Hermina
+07 05 svk Monika
+08 05 svk Ingrida
+09 05 svk Roland
+10 05 svk Viktória Viktoria
+11 05 svk Blažena Blazena
+12 05 svk Pankrác Pankrac
+13 05 svk Servác Servac
+14 05 svk Bonifác Bonifac
+15 05 svk Žofia Zofia
+16 05 svk Svetozár Svetozar
+17 05 svk Gizela
+18 05 svk Viola
+19 05 svk Gertrúda Gertruda
+20 05 svk Bernard
+21 05 svk Zina
+22 05 svk Júlia Julia
+23 05 svk Žalmíra Zelmira
+24 05 svk Ela
+25 05 svk Urban
+26 05 svk Dušan Dusan
+27 05 svk Iveta
+28 05 svk Viliam
+29 05 svk Vilma
+30 05 svk Ferdinand 
+31 05 svk Petronela
+
+# Jun SVK
+01 06 svk Žaneta Zaneta
+02 06 svk Xénia Xenia
+03 06 svk Karolína Karolina
+04 06 svk Lenka
+05 06 svk Laura
+06 06 svk Norbert
+07 06 svk Róbert
+08 06 svk Medard
+09 06 svk Stanislava
+10 06 svk Margaréta	Margareta
+11 06 svk Dobroslava
+12 06 svk Zlatko
+13 06 svk Anton
+14 06 svk Vasil	
+15 06 svk Vít	Vit
+16 06 svk Blanka
+17 06 svk Adolf
+18 06 svk Vratislav
+19 06 svk Alfréd Alfred
+20 06 svk Valéria	Valeria
+21 06 svk Alojz
+22 06 svk Paulína	Paulina
+23 06 svk Sidónia Sidonia
+24 06 svk Ján	Jan
+25 06 svk Tadeáš Tadeas
+26 06 svk Adriána	Adriana
+27 06 svk Ladislav
+28 06 svk Beáta Beata
+29 06 svk Peter 
+29 06 svk Pavol
+29 06 svk Petra	
+30 06 svk Melánia
+
+# Júl SVK
+01 07 svk Diana
+02 07 svk Berta
+03 07 svk Miroslav
+04 07 svk Prokop
+05 07 svk Cyril
+05 07 svk Metod
+06 07 svk Patrícia Patricia
+06 07 svk Patrik
+07 07 svk Oliver
+08 07 svk Ivan
+09 07 svk Lujza
+10 07 svk Amália Amalia
+11 07 svk Milota
+12 07 svk Nina
+13 07 svk Margita
+14 07 svk Kamil
+15 07 svk Henrich
+16 07 svk Drahomír Drahomir
+17 07 svk Bohuslav
+18 07 svk Kamila
+19 07 svk Dušana Duasana
+20 07 svk Iľja Ilja
+20 07 svk Eliáš Elias
+21 07 svk Daniel
+22 07 svk Magdaléna	Magdalena
+23 07 svk Oľga Olga
+24 07 svk Vladimír Vladimír
+25 07 svk Jakub
+26 07 svk Anna
+26 07 svk Hana
+26 07 svk Anita
+27 07 svk Božena Bozena
+28 07 svk Krištof Kristof
+29 07 svk Marta	
+30 07 svk Libuša Libusa
+31 07 svk Ignác Ignac
+
+# August SVK
+01 08 svk Božidara Bozidara
+02 08 svk Gustáv Gustav
+03 08 svk Jerguš Jergus
+04 08 svk Dominika
+04 08 svk Dominik
+05 08 svk Hortenzia
+06 08 svk Jozefína Jozefina
+07 08 svk Štefánia Stefania
+08 08 svk Oskar
+09 08 svk Ľubomíra Lubomira
+10 08 svk Vavrinec
+11 08 svk Zuzana
+12 08 svk Darina
+13 08 svk Ľubomír Lubomir
+14 08 svk Mojmír Mojmir
+15 08 svk Marcela
+16 08 svk Leonard
+17 08 svk Milica
+18 08 svk Elena
+18 08 svk Helena
+19 08 svk Lýdia Lydia
+20 08 svk Anabela
+20 08 svk Liliana
+21 08 svk Jana
+22 08 svk Tichomír Tichomir
+23 08 svk Filip
+24 08 svk Bartolomej
+25 08 svk Ľudovít Ludovit
+26 08 svk Samuel
+27 08 svk Silvia
+28 08 svk Augustín Augustin
+29 08 svk Nikola
+29 08 svk Nikolaj
+30 08 svk Ružena Ruzena
+31 08 svk Nora
+
+# September SVK
+01 09 svk Drahoslava
+02 09 svk Linda
+02 09 svk Rebeka
+03 09 svk Belo
+04 09 svk Rozália
+05 09 svk Regina
+06 09 svk Alica
+07 09 svk Marianna
+08 09 svk Miriama
+09 09 svk Martina
+10 09 svk Oleg
+11 09 svk Bystrík
+12 09 svk Mária
+12 09 svk Marlena
+13 09 svk Ctibor
+14 09 svk Ľudomil Ludomil
+15 09 svk Jolana
+16 09 svk Ľudmila Ludmila
+17 09 svk Olympia
+18 09 svk Eugénia
+19 09 svk Konštantín Konstantin
+20 09 svk Ľuboslav Luboslav
+20 09 svk Ľuboslava Luboslava
+21 09 svk Matúš Matus
+22 09 svk Móric Moric
+23 09 svk Zdenka
+24 09 svk Ľuboš Lubos
+24 09 svk Ľubor Lubor
+25 09 svk Vladislav
+25 09 svk Vladislava
+26 09 svk Edita
+27 09 svk Cyprián
+28 09 svk Václav Vaclav
+29 09 svk Michal
+29 09 svk Michela
+30 09 svk Jarolím Jarolim
+
+# Oktober SVK
+01 10 svk Arnold
+02 10 svk Levoslav
+03 10 svk Stela
+04 10 svk František Frantisek
+05 10 svk Viera
+06 10 svk Natália Natalia
+07 10 svk Eliška Eliska
+08 10 svk Brigita
+09 10 svk Dionýz Dionyz
+10 10 svk Slavomíra Slavomira
+11 10 svk Valentína Valentina
+12 10 svk Maximilián Maximilian
+13 10 svk Koloman
+14 10 svk Boris
+15 10 svk Terézia Terezia
+16 10 svk Vladimíra Vladimira
+17 10 svk Hedviga
+18 10 svk Lukáš Lukas
+19 10 svk Kristián Kristian
+20 10 svk Vendelín Vendelin
+21 10 svk Uršuľa Ursula
+22 10 svk Sergej
+23 10 svk Alojzia
+24 10 svk Kvetoslava
+25 10 svk Aurel
+26 10 svk Demeter
+27 10 svk Sabina
+28 10 svk Dobromila
+29 10 svk Klára
+30 10 svk Šimon Simon
+30 10 svk Simona
+31 10 svk Aurélia Aurelia
+
+# November SVK
+01 11 svk Denis
+01 11 svk Denisa
+02 11 svk - sviatok -
+03 11 svk Hubert
+04 11 svk Karol
+05 11 svk Imrich
+06 11 svk Renáta Renata
+07 11 svk René Rene
+08 11 svk Bohumír Bohumir
+09 11 svk Teodor
+10 11 svk Tibor
+11 11 svk Martin
+11 11 svk Maroš Maros
+12 11 svk Svätopluk Svatopluk
+13 11 svk Stanislav
+14 11 svk Irma
+15 11 svk Leopold
+16 11 svk Agnesa
+17 11 svk Klaudia
+18 11 svk Eugen
+19 11 svk Alžbeta Alzbeta
+20 11 svk Félix Felix
+21 11 svk Elvíra Elvira
+22 11 svk Cecília Cecilia
+23 11 svk Klement
+24 11 svk Emília Emilia
+25 11 svk Katarína Katarina
+26 11 svk Kornel
+27 11 svk Milan
+28 11 svk Henrieta
+29 11 svk Vratko
+30 11 svk Ondrej
+30 11 svk Andrej
+
+# December SVK
+01 12 svk Edmund
+02 12 svk Bibiána Bibiana
+03 12 svk Oldrich
+04 12 svk Barbora
+04 12 svk Barbara
+05 12 svk Oto
+06 12 svk Mikuláš Mikulas
+07 12 svk Ambróz Ambroz
+08 12 svk Marína Marina
+09 12 svk Izabela
+10 12 svk Radúz Raduz
+11 12 svk Hilda
+12 12 svk Otília Otilia
+13 12 svk Lucia
+14 12 svk Branislava
+14 12 svk Bronislava
+15 12 svk Ivica
+16 12 svk Albína Albina
+17 12 svk Kornélia Kornelia
+18 12 svk Slávia Slavia
+19 12 svk Judita
+20 12 svk Dagmara
+21 12 svk Bohdan
+22 12 svk Adela
+23 12 svk Nadežda Nadezda
+24 12 svk Adam
+24 12 svk Eva
+25 12 svk -sviatok-
+26 12 svk Štefan Stefan
+27 12 svk Filoména Filomena
+28 12 svk Ivana
+28 12 svk Ivona
+29 12 svk Milada
+30 12 svk Dávid David
+31 12 svk Silvester
+
+# Konec suboru
